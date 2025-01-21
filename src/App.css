@@ -1,0 +1,142 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f8fb;
+  font-size: 1rem;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Heading Styles */
+h1 {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 70%;
+  margin: 1rem auto;
+  border: 1px solid #dcdcdc;
+  font-weight: 600;
+}
+
+/* NavBar Styling */
+.nav {
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0 2rem;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #3498db;
+}
+
+/* Forms and Input Fields */
+form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Container for page content */
+center {
+  margin: 3rem 0;
+}
+
+/* Error Messages */
+h2 {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  * {
+    font-size: 4vw;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav a {
+    margin: 1rem 0;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+
+  form {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
