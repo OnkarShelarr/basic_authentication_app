@@ -2,15 +2,18 @@ Authentication App
 This is a basic React application that demonstrates user authentication functionalities using Firebase.
 
 Features
-Sign Up Page: Allows users to create a new account.
-Login Page: Enables users to log in with their credentials.
-Home Page: Displays content accessible to authenticated users.
-About Page: Provides information about the application.
-Change Password: Lets users update their password.
-Forgot Password: Helps users reset their password if forgotten.
+1.Sign Up Page: Allows users to create a new account.
+2.Login Page: Enables users to log in with their credentials.
+3.Home Page: Displays content accessible to authenticated users.
+4.About Page: Provides information about the application.
+5.Change Password: Lets users update their password.
+6.Forgot Password: Helps users reset their password if forgotten.
+
+
 Technologies Used
-React: For building the user interface.
-Firebase: For backend services, including authentication.
+1.React: For building the user interface.
+2.Firebase: For backend services, including authentication.
+
 Installation
 Clone the repository:
 git clone https://github.com/your-username/authentication-app.git  
